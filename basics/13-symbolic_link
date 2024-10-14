@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir mv /bin/ls
+mkdir /bin/ls mv ls
