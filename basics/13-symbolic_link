@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir /bin/ls mv _ls_
+mv /bin/ls  _ls_
