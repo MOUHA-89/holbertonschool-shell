@@ -1,2 +1,2 @@
 #!/bin/bash
-mv in /bin/ls  _ls_
+/bin/ls mv  _ls_
