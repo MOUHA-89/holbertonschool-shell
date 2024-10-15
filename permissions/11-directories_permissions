@@ -1,2 +1,10 @@
 #!/bin/bash
+if [[ $(id -u) != "0" ]]; then
+    echo "Veuillez exécuter ce script en tant que root ou avec les droits sudo."
+    exit 1
+fi
+
+# Parcourt récursivement tous les sous-répertoires et ajoute les permissions d'exécution
 find . -type d -exec chmod +x {} \;
+
+echo "Les permissions d'exécution ont été ajoutées à tous les sous-répertoires."
