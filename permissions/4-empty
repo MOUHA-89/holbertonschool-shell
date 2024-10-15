@@ -1,2 +1,2 @@
 #!/bin/bash
-cp hello
+touch hello
