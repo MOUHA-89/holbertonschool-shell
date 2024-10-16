@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chown Vincent:staff ls -l _hello
+sudo chown Vincent:staff /path/to/real/file
