@@ -1,2 +1,2 @@
 #!/bin/bash
-ls u+x,g+x,o+x 
+chmod ls u+x,g+x,o+x 
