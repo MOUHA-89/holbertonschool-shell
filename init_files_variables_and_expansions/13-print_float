@@ -1,2 +1,2 @@
 #!/bin/bash
-printenv ((n+(n+1) echo "n" > Z)
+printenv ((n+(n+1) echo "n" > NUM )
