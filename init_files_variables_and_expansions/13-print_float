@@ -1,2 +1,2 @@
 #!/bin/bash
-printenv ((n+(n+1) echo "n" > NUM )
+export NUM=2.31 && printf '''%.2f ''' $NUMi
